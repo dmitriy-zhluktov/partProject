@@ -13,7 +13,6 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-//@EnableTransactionManagement
 @PropertySource("classpath:db.properties")
 public class HibernateConfig {
 
